@@ -22,3 +22,4 @@ console.log('Conectado ao Firebase!')
 const Firebase = initializeApp(firebaseConfig);
 export const db = firestore.getFirestore(Firebase)
 export { firestore }
+
